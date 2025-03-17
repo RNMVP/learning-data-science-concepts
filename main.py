@@ -36,3 +36,7 @@ print(medias)
 #%%
 medias.plot(kind='hist')
 plt.show()
+#%%
+sns.displot(medias, kde=True)
+plt.title("Histograma das medias por filme")
+plt.show()
